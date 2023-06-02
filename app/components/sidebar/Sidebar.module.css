@@ -1,0 +1,50 @@
+.sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-400);
+  gap: 1rem;
+  top: 0;
+  right: -350px;
+  width: 350px;
+  height: 100vh;
+  z-index: 2;
+  padding: 3rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.open {
+  transform: translateX(-350px);
+}
+
+.button {
+  background-color: var(--primary-500);
+  text-transform: uppercase;
+  border: none;
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  border-radius: 24px;
+  color: var(--primary-white);
+}
+
+.closeButton {
+  display: flex;
+  justify-content: flex-end;
+  background-color: unset;
+  color: var(--primary-white);
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sidebar input {
+  height: 3rem;
+  padding: 0px 12px;
+  background-color: var(--background-500);
+  border: 2px solid var(--background-300);
+  border-radius: 24px;
+  color: var(--primary-white);
+}

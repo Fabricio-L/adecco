@@ -1,0 +1,23 @@
+.post {
+  border: 1px solid #8b8b8b;
+  border-radius: 18px;
+  padding: 1rem;
+  width: 100%;
+}
+
+.title {
+  text-transform: capitalize;
+}
+
+.button {
+  background-color: var(--error-500);
+  text-transform: uppercase;
+  border: none;
+  margin-top: 40px;
+  padding: 16px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  border-radius: 24px;
+  color: var(--primary-white);
+}

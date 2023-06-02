@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--background-400);
+  padding: 8px;
+  border: none;
+  border-radius: 18px;
+  gap: 1rem;
+}
+
+.container:hover {
+  background-color: var(--background-300);
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.button {
+  background-color: unset;
+  text-transform: uppercase;
+  border: none;
+  font-weight: bold;
+  color: var(--primary-white);
+}

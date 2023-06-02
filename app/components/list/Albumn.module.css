@@ -1,0 +1,7 @@
+.albumn {
+  justify-content: space-between;
+  border-bottom: 1px solid var(--background-300);
+  align-items: center;
+  text-transform: capitalize;
+  padding: 5px;
+}
